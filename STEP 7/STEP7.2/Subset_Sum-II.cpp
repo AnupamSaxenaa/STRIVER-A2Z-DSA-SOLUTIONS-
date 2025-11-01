@@ -1,0 +1,1 @@
+//simple question isme bs ek line add hoti and ek hategi see combination sum 2 then do this
