@@ -29,5 +29,28 @@
 //     }
 // };
 
-//2.OPTIMAL SOLUTION - 
+//2.OPTIMAL SOLUTION - TC-O(N) SC-O(1) THODA TOUGH TO UNDERSTAND THE CONCEPT MUG THIS UP IF NO IDEA WHATS GOING ON
+
+// class Solution {
+// public:
+//     bool checkValidString(string s) {
+//         int mini = 0 , maxi = 0 , n = s.size();
+//         for(auto &x : s){
+//             if(x=='(') {
+//                 mini+=1;
+//                 maxi+=1;
+//             }else if(x==')'){
+//                 mini-=1;
+//                 maxi-=1;
+//             }else{
+//                 mini-=1;
+//                 maxi+=1;
+//             }
+//             if(mini<0) mini = 0;
+//             if(maxi<0) return false;
+//         }
+
+//         return mini==0;
+//     }
+// };
 
